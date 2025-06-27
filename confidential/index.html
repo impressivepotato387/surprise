@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>💖 Are You Ready? 💖</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <audio id="bgMusic" src="audio/blue.mp3" loop></audio>
+  <div id="floatArea"></div>
+  <div class="question-box" id="questionBox">
+    <h1>Are you ready for the surprise? 💌</h1>
+    <div class="btn-wrap">
+      <button id="yesBtn" onclick="revealSurprise()">Yes 🥺</button>
+      <button id="noBtn" onclick="moveYes()">No :((</button>
+    </div>
+  </div>
+  <div class="surprise-box" id="surpriseBox">
+    <h2 id="typewriterText"></h2>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
